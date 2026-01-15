@@ -1,0 +1,17 @@
+/* Hide default cursor on desktop */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+
+  a, button, input, textarea, select {
+    cursor: none !important;
+  }
+}
+
+/* Keep default cursor on mobile/touch devices */
+@media (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
+}
