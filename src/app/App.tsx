@@ -29,164 +29,154 @@ function Portfolio() {
     alert('Thank you for your message! I will get back to you soon.');
     setFormData({ name: '', email: '', message: '' });
   };
-
-  const projects = [
-    {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application with payment integration, user authentication, and real-time inventory management.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjBwcm9qZWN0JTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzY4MTg2NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'fullstack'
-    },
-    {
-      title: 'Task Management App',
-      description: 'A collaborative task management tool with drag-and-drop functionality, team workspaces, and deadline tracking.',
-      tags: ['TypeScript', 'React', 'Firebase', 'Tailwind'],
-      image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY4MjM0NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'frontend'
-    },
-    {
-      title: 'AI-Powered Chat Bot',
-      description: 'An intelligent chatbot using natural language processing to provide customer support and answer FAQs.',
-      tags: ['Python', 'TensorFlow', 'FastAPI', 'React'],
-      image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjBwcm9qZWN0JTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzY4MTg2NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'fullstack'
-    },
-    {
-      title: 'Sales Analytics Dashboard',
-      description: 'Real-time analytics dashboard with interactive charts, KPI tracking, and data visualization for business insights.',
-      tags: ['React', 'D3.js', 'PostgreSQL', 'Express'],
-      image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjBwcm9qZWN0JTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzY4MTg2NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'analytics'
-    },
-    {
-      title: 'Executive BI Dashboard',
-      description: 'Comprehensive business intelligence platform with custom reports, data warehousing, and predictive analytics.',
-      tags: ['Power BI', 'Python', 'SQL', 'Azure'],
-      image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY4MjM0NDk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'bi'
-    },
-    {
-      title: 'Portfolio Website Builder',
-      description: 'Drag-and-drop website builder with customizable templates and responsive design components.',
-      tags: ['React', 'Next.js', 'Tailwind', 'Vercel'],
-      image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjBwcm9qZWN0JTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzY4MTg2NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      github: '#',
-      demo: '#',
-      category: 'frontend'
-    }
-  ];
-
+const projects = [
+  {
+    title: 'Interactive Expense Tracker (CashCow-Inspired)',
+    description: 'A budget visualisation system with dynamic sun, cloud, and thunderstorm animations that react to user spending behaviour. Inspired by the Adobe Business Challenge prototype.',
+    tags: ['React', 'Redux Toolkit', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+    image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?w=1080',
+    github: 'https://github.com/mahant1245/Expense_Tracker',
+    demo: '#',
+    category: 'fullstack'
+  },
+  {
+    title: 'Sales Data Analytics Project',
+    description: 'End-to-end data analytics project analysing retail sales performance. Cleaned and transformed large datasets, then built interactive Power BI dashboards to visualise KPIs and regional metrics.',
+    tags: ['Python', 'MySQL', 'Power BI', 'Pandas', 'NumPy'],
+    image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1080',
+    github: '#',
+    demo: '#',
+    category: 'analytics'
+  },
+  {
+    title: 'Unity Bank Website',
+    description: 'A responsive and interactive banking website built as an academic assignment, achieving 90%. Features include a Mortgage Calculator, Banking Services pages, and a Contact form.',
+    tags: ['HTML', 'CSS', 'jQuery'],
+    image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?w=1080',
+    github: '#',
+    demo: '#',
+    category: 'frontend'
+  },
+  {
+    title: 'ChoreMate – Hackathon Project',
+    description: 'A task management app built at Let\'s Hack Leicester 2024/25 to assign and track household chores in student accommodation. Built with a team of five in Python and Kivy.',
+    tags: ['Python', 'Kivy'],
+    image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1080',
+    github: 'https://github.com/mahant1245/letsHackLeicester2024',
+    demo: '#',
+    category: 'fullstack'
+  },
+  {
+    title: 'Car Racing Game',
+    description: 'A 2D car racing game developed for A-Level Computer Science NEA. Implemented a high-score table using 2D arrays and applied OOP principles throughout.',
+    tags: ['C#'],
+    image: 'https://images.unsplash.com/photo-1554306274-f23873d9a26c?w=1080',
+    github: 'https://github.com/mahant1245/Car-Racing-Game',
+    demo: '#',
+    category: 'frontend'
+  }
+];
   const education = [
-    {
-      title: 'Bachelor of Science in Computer Science',
-      organization: 'Tech University',
-      period: '2022 - 2026',
-      description: 'Currently pursuing a degree with a focus on software engineering and artificial intelligence.',
-      details: [
-        'GPA: 3.8/4.0',
-        'Relevant Coursework: Data Structures, Algorithms, Machine Learning, Web Development',
-        'Member of Computer Science Society'
-      ],
-      icon: <GraduationCap className="w-8 h-8" />
-    },
-    {
-      title: 'A-Levels in Mathematics, Computer Science & Physics',
-      organization: 'Sixth Form College',
-      period: '2020 - 2022',
-      description: 'Achieved excellent grades in core STEM subjects.',
-      details: [
-        'Mathematics: A*',
-        'Computer Science: A*',
-        'Physics: A'
-      ],
-      icon: <School className="w-8 h-8" />
-    },
-    {
-      title: 'GCSEs',
-      organization: 'Secondary School',
-      period: '2015 - 2020',
-      description: 'Completed secondary education with outstanding results.',
-      details: [
-        '9 GCSEs at grades 7-9',
-        'Mathematics: 9',
-        'Computer Science: 9'
-      ],
-      icon: <BookOpen className="w-8 h-8" />
-    }
-  ];
+  {
+    title: 'BSc Computer Science with Year in Industry',
+    organization: 'University of Leicester',
+    period: 'September 2024 – June 2028',
+    description: 'Currently in second year, on track for a First Class Honours (Predicted 1:1).',
+    details: [
+      '100% in Mathematics — covering Discrete Maths, Graph Theory, Probability & more',
+      '90.6% in Computer Architecture',
+      '91.6% in Foundations of Computation',
+      'Teaching Assistant for first-year Maths and Computer Architecture modules'
+    ],
+    icon: <GraduationCap className="w-8 h-8" />
+  },
+  {
+    title: 'A-Levels',
+    organization: 'Wyggeston and Queen Elizabeth I College, Leicester',
+    period: 'September 2022 – August 2024',
+    description: 'Studied core STEM subjects at one of the leading sixth form colleges in the UK.',
+    details: [
+      'Mathematics: A',
+      'Further Mathematics: B',
+      'Physics: C',
+      'Computer Science: B'
+    ],
+    icon: <School className="w-8 h-8" />
+  },
+  {
+    title: 'Secondary School (Class 10)',
+    organization: 'Coast Guard Public School, Daman, India',
+    period: 'Until 2022',
+    description: 'Completed Class 10 with strong academic results across all subjects.',
+    details: [
+      'Overall: 87.6%',
+      'Part of the school cricket team — won gold medal in an inter-school competition'
+    ],
+    icon: <BookOpen className="w-8 h-8" />
+  }
+];
 
   const experience = [
-    {
-      title: 'Software Engineering Intern',
-      organization: 'Tech Startup Inc.',
-      period: 'Summer 2025',
-      description: 'Developed features for a SaaS platform serving 10,000+ users.',
-      details: [
-        'Built REST APIs using Node.js and Express',
-        'Implemented responsive UI components with React',
-        'Collaborated with cross-functional team using Agile methodology'
-      ],
-      icon: <Briefcase className="w-8 h-8" />
-    },
-    {
-      title: 'Web Development Intern',
-      organization: 'Digital Agency',
-      period: 'Summer 2024',
-      description: 'Created custom websites for clients across various industries.',
-      details: [
-        'Developed 5+ client websites using modern web technologies',
-        'Improved website performance by 40% through optimization',
-        'Worked directly with clients to understand requirements'
-      ],
-      icon: <Code className="w-8 h-8" />
-    },
-    {
-      title: 'Freelance Developer',
-      organization: 'Self-Employed',
-      period: '2023 - Present',
-      description: 'Building custom web solutions for small businesses and startups.',
-      details: [
-        'Completed 15+ projects with 100% client satisfaction',
-        'Specialized in React, Next.js, and Tailwind CSS',
-        'Managed full project lifecycle from design to deployment'
-      ],
-      icon: <Code className="w-8 h-8" />
-    }
-  ];
+  {
+    title: 'Business and Digital Marketing Micro-Intern',
+    organization: 'EcomIT',
+    period: 'October 2025 – December 2025',
+    description: 'Supported marketing and UX improvements for EcomIT\'s digital presence.',
+    details: [
+      'Contributed to UX improvements and content structure of the marketing website',
+      'Applied SEO principles and competitive analysis to strengthen brand positioning',
+      'Analysed digital content and competitor performance to boost online engagement'
+    ],
+    icon: <Briefcase className="w-8 h-8" />
+  },
+  {
+    title: 'Teaching Assistant',
+    organization: 'University of Leicester',
+    period: 'September 2025 – Present',
+    description: 'Providing academic support to first-year students in Mathematics and Computer Architecture.',
+    details: [
+      'Assist in workshops and simplify complex concepts to build student confidence',
+      'Strengthen leadership and mentoring skills through ongoing academic support',
+      'Selected based on achieving top results in both modules'
+    ],
+    icon: <BookOpen className="w-8 h-8" />
+  },
+  {
+    title: 'FutureMaker Careers & Employability Student Ambassador',
+    organization: 'University of Leicester',
+    period: 'September 2025 – Present',
+    description: 'Acting as a first point of contact at the Careers Hub to support fellow students.',
+    details: [
+      'Direct students to career services, resources, and opportunities',
+      'Support events through logistics, engagement, and promotion',
+      'Manage data and source opportunities to strengthen organisational skills'
+    ],
+    icon: <Code className="w-8 h-8" />
+  }
+];
 
   const achievements = [
-    {
-      icon: <Award className="w-6 h-6" />,
-      title: 'Dean\'s List',
-      description: 'Achieved Dean\'s List honors for 4 consecutive semesters'
-    },
-    {
-      icon: <Code className="w-6 h-6" />,
-      title: 'Hackathon Winner',
-      description: 'First place at University Hackathon 2025 - Best AI Solution'
-    },
-    {
-      icon: <BookOpen className="w-6 h-6" />,
-      title: 'Research Publication',
-      description: 'Published paper on machine learning algorithms in IEEE conference'
-    },
-    {
-      icon: <GraduationCap className="w-6 h-6" />,
-      title: 'Scholarship Recipient',
-      description: 'Merit-based scholarship for academic excellence'
-    }
-  ];
+  {
+    icon: <Award className="w-6 h-6" />,
+    title: 'Adobe Business Challenge – Finalist',
+    description: 'Selected as one of the top 7 teams nationally. Pitched "CashCow", a financial literacy tool, at Adobe\'s London office as tech lead.'
+  },
+  {
+    icon: <GraduationCap className="w-6 h-6" />,
+    title: '100% in Mathematics',
+    description: 'Achieved a perfect score in Discrete Mathematics at the University of Leicester, covering Graph Theory, Probability, Logic, and more.'
+  },
+  {
+    icon: <Code className="w-6 h-6" />,
+    title: 'Let\'s Hack Leicester 2024/25',
+    description: 'Built "ChoreMate", a task management app using Python and Kivy, collaborating in a team of five during the hackathon.'
+  },
+  {
+    icon: <BookOpen className="w-6 h-6" />,
+    title: 'WatsonX Conversational AI Workshop – IBM',
+    description: 'Implemented a virtual assistant prototype using Watson AI and earned three IBM certifications in AI, Design Thinking, and Project Design.'
+  }
+];
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
@@ -277,7 +267,7 @@ function Portfolio() {
                   transition={{ delay: 0.3, duration: 0.6, type: "spring" }}
                   className="text-blue-600 dark:text-blue-400"
                 >
-                  Alex Chen
+                  Mahant Lacximikant
                 </motion.span>
               </motion.h1>
               <motion.p
@@ -286,7 +276,7 @@ function Portfolio() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-6"
               >
-                Computer Science Student & Full-Stack Developer
+                Computer Science Student 
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -294,8 +284,7 @@ function Portfolio() {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl"
               >
-                Passionate about creating innovative solutions through code. Specializing in web development, 
-                machine learning, and building scalable applications.
+                Second-year Computer Science undergraduate at the University of Leicester, passionate about building smart, data-driven solutions. From hackathons to internships, I love turning ideas into real, impactful software — especially where software meets data science and machine learning.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -466,7 +455,7 @@ function Portfolio() {
             viewport={{ once: true }}
             className="text-gray-400"
           >
-            © 2026 Alex Chen. Built with React & Tailwind CSS.
+            © 2026 Mahant. Built with React & Tailwind CSS.
           </motion.p>
         </div>
       </footer>
@@ -480,10 +469,9 @@ function AboutSection() {
   const isInView = useInView(ref, { once: true });
 
   const stats = [
-    { value: '15+', label: 'Projects Completed', color: 'blue' },
-    { value: '3.8', label: 'GPA', color: 'indigo' },
-    { value: '5+', label: 'Hackathons', color: 'purple' },
-    { value: '100+', label: 'GitHub Contributions', color: 'pink' }
+    { value: '5+', label: 'Projects Built', color: 'blue' },
+{ value: '100%', label: 'Maths Score', color: 'indigo' },
+{ value: '2+', label: 'Hackathons', color: 'purple' }
   ];
 
   return (
@@ -504,28 +492,16 @@ function AboutSection() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
           >
-            I'm a passionate Computer Science student at Tech University with a strong foundation in software development 
-            and a keen interest in emerging technologies. My journey in tech started in high school when I built my first 
-            website, and I've been hooked ever since.
+            I'm a second-year Computer Science student at the University of Leicester (BSc with Year in Industry), originally India. I grew up tinkering with technology and have since turned that curiosity into hands-on experience building reliable digital solutions across web development, data analytics, and AI.
           </motion.p>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ delay: 0.3, duration: 0.6 }}
-            className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
-          >
-            I specialize in full-stack web development with expertise in React, Node.js, and modern JavaScript frameworks. 
-            I'm also exploring machine learning and AI, working on projects that combine my programming skills with 
-            data-driven solutions.
-          </motion.p>
+          
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed"
           >
-            When I'm not coding, you can find me contributing to open-source projects, participating in hackathons, 
-            or mentoring fellow students in programming fundamentals.
+            Outside of coding, I support first-year students as a Teaching Assistant and help connect peers with opportunities as a Careers Ambassador. I also play and follow cricket!
           </motion.p>
         </div>
 
@@ -715,8 +691,8 @@ function ContactSection({ formData, setFormData, handleSubmit }: any) {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {[
-            { icon: Mail, title: 'Email', info: 'alex.chen@email.com' },
-            { icon: Linkedin, title: 'LinkedIn', info: 'linkedin.com/in/alexchen' }
+            { icon: Mail, title: 'Email', info: 'mahant1245@email.com' },
+            { icon: Linkedin, title: 'LinkedIn', info: 'https://www.linkedin.com/in/mahant-lacximikant/' }
           ].map((contact, index) => (
             <motion.div
               key={index}
