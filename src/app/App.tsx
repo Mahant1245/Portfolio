@@ -9,6 +9,7 @@ import { ThemeProvider } from '@/app/hooks/useTheme';
 import { ThemeToggle } from '@/app/components/ThemeToggle';
 import { AnimatedBackground } from '@/app/components/AnimatedBackground';
 import { ParticleNetwork } from '@/app/components/ParticleNetwork';
+import headshotImage from '../HeadshotImage.jpg';
 
 function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -367,7 +368,7 @@ solutions.
                 transition={{ duration: 0.3 }}
               >
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc2ODI1MTIwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src={headshotImage}
                   alt="Mahant Lacximikant"
                   className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl"
                 />
