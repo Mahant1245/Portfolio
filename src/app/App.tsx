@@ -339,7 +339,7 @@ solutions.
               >
                 {[
                   { Icon: Github, href: 'https://github.com/mahant1245' },
-                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE' },
+                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/mahant-lacximikant/' },
                   { Icon: Mail, href: 'mailto:mahant1245@gmail.com' }
                 ].map(({ Icon, href }, index) => (
                   <motion.a
@@ -521,7 +521,7 @@ function AboutSection() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
           >
-            I'm a second-year Computer Science student at the University of Leicester, originally from Daman, India. I enjoy both the software and data sides of things — whether that's building a web app or digging through a dataset to find something useful.
+            I'm a second-year Computer Science student at the University of Leicester, originally from India. I enjoy both the software and data sides of things, whether that's building a web app or digging through a dataset to find something useful.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -529,7 +529,7 @@ function AboutSection() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
           >
-            I've worked with Python, React, Node.js, SQL and Power BI across different projects and internships. I like work that has a real purpose to it — not just code for the sake of it.
+            I've worked with Python, React, Node.js, SQL and Power BI across different projects. I like work that has a real purpose to it, not just code for the sake of it.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -537,7 +537,7 @@ function AboutSection() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed"
           >
-            I also work as a Teaching Assistant for first-year students in Maths and Computer Architecture, and as a Careers Ambassador at the university — both of which have pushed me to communicate better and think about how I explain things, not just whether I can do them.
+            I also work as a Careers Ambassador at the university and worked as a Teaching Assistant for first-year students in Maths and Computer Architecture, both of which have pushed me to communicate better and think about how I explain things, not just whether I can do them.
           </motion.p>
         </div>
 
@@ -720,8 +720,8 @@ function ContactSection({ formData, setFormData, handleSubmit }: any) {
     {
       icon: Linkedin,
       title: 'LinkedIn',
-      info: 'linkedin.com/in/YOUR-LINKEDIN-HANDLE',
-      href: 'https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE'
+      info: 'linkedin.com/in/mahant-lacximikant/',
+      href: 'https://www.linkedin.com/in/mahant-lacximikant/'
     }
   ];
 
