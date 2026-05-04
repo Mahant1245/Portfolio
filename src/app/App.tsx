@@ -9,7 +9,7 @@ import { ThemeProvider } from '@/app/hooks/useTheme';
 import { ThemeToggle } from '@/app/components/ThemeToggle';
 import { AnimatedBackground } from '@/app/components/AnimatedBackground';
 import { ParticleNetwork } from '@/app/components/ParticleNetwork';
-import headshotImage from '../HeadshotImage.jpg';
+
 
 function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -368,7 +368,7 @@ solutions.
                 transition={{ duration: 0.3 }}
               >
                 <ImageWithFallback
-                  src={headshotImage}
+                  src="/HeadshotImage.jpg"
                   alt="Mahant Lacximikant"
                   className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl"
                 />
